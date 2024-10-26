@@ -13,9 +13,6 @@ This is the official repo for the paper "Guiding Through Complexity: What Makes 
 <a target="_blank" href="https://huggingface.co/datasets/hexuan21/weak-to-strong">
 <img style="height:22pt" src="https://img.shields.io/badge/-🤗%20Dataset-red?style=flat"></a>
 
-<a target="_blank" href="">
-<img style="height:22pt" src="https://img.shields.io/badge/-🤗%20Models-red?style=flat"></a>
-
 <br>
 
 ## Introduction
