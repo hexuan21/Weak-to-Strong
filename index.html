@@ -142,15 +142,15 @@
               <br> 
               <div class="is-size-5 publication-authors">
                   <span class="author-block">
-                    <sup style="color:#9b51e0;">1</sup><sup>,†</sup>
-                    <a href="" style="font-weight:normal;">Xuan He*</a>,
+                    <sup style="color:#9b51e0;">1</sup>
+                    <a href="" style="font-weight:normal;">Xuan He* </a>,
                   </span>
                   <span class="author-block">
-                    <sup style="color:#007bff;">2</sup><sup>,†</sup>
-                    <a href="https://wadeyin9712.github.io/" style="font-weight:normal;">Da Yin*</a>,
+                    <sup style="color:#007bff;">2</sup>
+                    <a href="https://wadeyin9712.github.io/" style="font-weight:normal;">Da Yin* </a>,
                   </span>
                   <span class="author-block">
-                    <sup style="color:#007bff;">2</sup><sup>,†</sup>
+                    <sup style="color:#007bff;">2</sup>
                     <a href="https://violetpeng.github.io/" style="font-weight:normal;">Nanyun (Violet) Peng</a>,
                   </span>
               </div>  
@@ -168,7 +168,7 @@
               </span>
             </div>
             <div class="is-size-5 publication-authors">
-                <span class="author-block">†Corresponding to:</span>
+                <span class="author-block">Corresponding to:</span>
                 <span class="author-block"><a href="mailto:hexuan21@mails.tsinghua.edu.cn">hexuan21@mails.tsinghua.edu.cn</a>,</span>
                 <span class="author-block"><a href="mailto:da.yin@cs.ucla.edu">da.yin@cs.ucla.edu</a>,</span>
                 <span class="author-block"><a href="mailto:violetpeng@cs.ucla.edu">violetpeng@cs.ucla.edu</a></span>
@@ -255,13 +255,13 @@
           <div class="content has-text-justified">
             <p>
                 How can "weak teacher models" such as average human annotators or existing AI systems, effectively supervise LLMs to improve performance on hard reasoning tasks, especially those that challenge and require expertise or daily practice from the teacher models? 
-                
+                <br>
                 In this paper, we seek for empirical answers to this question by investigating various data-driven strategies that offer supervision data at different quality levels upon tasks of varying complexity. Two intuitive strategies emerge for teacher models to provide supervision during alignment training: 1) using lower-quality supervision from complete tasks that match the difficulty of the target reasoning tasks, and 2) leveraging higher-quality supervision from easier subtasks that are less challenging. 
-                
+                <br>
                 Interestingly, we find that even when the outcome error rate for hard task supervision is high (e.g., 90\%), training on such data can outperform perfectly correct supervision on easier subtasks on multiple hard math benchmarks. We further identify a more critical factor influencing training performance: step-wise error rates, which indicate the severity of errors in solutions. 
-                
+                <br>
                 Specifically, training on hard task supervision with the same outcome error rates but disparate step-wise error rates can lead to a 30\% accuracy gap on MATH benchmark. Our results also reveal that supplementing hard task supervision with the corresponding subtask supervision can yield notable performance improvements than simply combining rephrased hard full task supervision, suggesting new avenues for data augmentation. 
-                
+                <br>
                 Data and code are released at \url{https://github.com/hexuan21/Weak-to-Strong}.      
             </p>
   
