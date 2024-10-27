@@ -7,7 +7,7 @@ This is the official repo for the paper "Guiding Through Complexity: What Makes 
 <a target="_blank" href="https://github.com/hexuan21/Weak-to-Strong">
 <img style="height:22pt" src="https://img.shields.io/badge/-Code-green?style=flat&logo=github"></a>
 
-<a target="_blank" href="">
+<a target="_blank" href="https://hexuan21.github.io/Weak-to-Strong/">
 <img style="height:22pt" src="https://img.shields.io/badge/-🌐%20Website-blue?style=flat"></a>
 
 <a target="_blank" href="https://huggingface.co/datasets/hexuan21/weak-to-strong">
