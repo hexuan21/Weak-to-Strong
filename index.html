@@ -270,14 +270,85 @@
     </div>
   </section>
 
+<!----------------------------------------- Task Supervision Synthesis. --------------------------------------------------->
+  <section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+    <h2 class="title is-3"> 
+      Hard Full Task and Easy Sub-task Supervision Synthesis</h2>
+  </div>
+  </section>   
+
   <section class="section">
-    <div class="container is-max-desktop">
-      <!-- Abstract. -->
-        
+    <div class="columns is-centered m-6">
+        <div class="column is-full has-text-centered content">
+            <div class="content has-text-centered">
+              <p>
+               In our paper, we mainly focus on two <b>data-driven 
+               </b>supervision strategies: 
+               <br>
+               <b>Strategy 1</b>: annotating or generating solutions directly 
+               on the <b>hard tasks</b> which both human and AI models are 
+               struggle with and the accuracy of annotation is rather low; 
+               <br>
+               <b>Strategy 2</b>: annotating or generating solutions 
+               on <b>hard tasks’ corresponding subtasks</b>, 
+               which are much easier and more manageable, thus 
+               humans or AI models are more likely to succeed.
+               <br>
+               </p>
+            </div>
+               
+            <div class="content has-text-centered">
+               
+               <h2 class="title is-3" id="examples">
+                Pipeline Overview
+               </h2>
+               <p>
+               Below we show the synthesis pipeline for constructing 
+               hard full task supervision and easy sub-task supervision.
+               <br>
+               (*: please check more details of this part in our paper and appendix.)
+              </p>
+              
+            </div>
+            
+            <centering>
+                <div style="text-align: center;">
+                    <img id="dataset" width="100%" src="static/images/pipeline.png">     
+                </div>
+            </centering>
+                    
+            <div class="content has-text-centered">
+               <h2 class="title is-3" id="examples">
+                Examples
+               </h2>
+               <p>
+               Here're some examples of decomposition, due to length limitations, 
+               we only list the questions themselves, without the solutions.
+              </p>
+            </div>
+            
+            <div class="carousel results-carousel">
+              
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="static/images/decompose_1.png" alt="grade-lv" width="60%"/>
+                </div>
+              </div>
+
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="static/images/decompose_2.png" alt="grade-lv" width="60%"/>
+                </div>
+              </div>
+              
+            </div>
+            
+        </div>
     </div>
   </section>
 
-
+<!----------------------------------------- BibTex --------------------------------------------------->
   <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     
