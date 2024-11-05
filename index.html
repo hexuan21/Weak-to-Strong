@@ -397,6 +397,73 @@
   </section>
   
 
+<!----------------------------------------- Severity of Erroneous Solutions Matters --------------------------------------------------->
+  <section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+    <h2 class="title is-3"> 
+      Severity of Erroneous Solutions Matters</h2>
+  </div>
+  </section>   
+
+  <section class="section">
+    <div class="columns is-centered m-6">
+        <div class="column is-full has-text-centered content">
+            
+            <div class="content has-text-justified">
+              <p>
+               🤯 From the section above, we observe that performance is
+               robust against the outcome error rates: the accuracy is
+               relatively steady when error outcome rate varies.
+               <br>
+               🤔 This triggers us to think that <b>outcome
+                error rate MAY NOT be a reliable indicator of
+                supervision quality</b>. We need to consider the 
+                <b>severity of erroneous solutions</b>.
+                <br>
+                We sample solutions from other distinct LLMs as teacher models,
+                and identify the model variant trained with
+                GPT-4o-mini supervision in previous section 
+                that has an outcome error
+                rate closest to that of the new teacher model for
+                the comparison. The results are shown below.
+                <br>
+              </p>
+            </div>
+            
+            <centering>
+                <div style="text-align: center;">
+                    <img width="80%" src="static/images/severity_res.png">  
+                </div>
+            </centering>
+            
+            <div class="content has-text-justified">
+              <p>
+               To further validate our hypothesis that the severity
+                of incorrect solutions matters more than the simple 
+                outcome error rates, we conduct human evaluation to 
+                explore the <b>step-wise error rates</b> in a small sample set.
+               <br>
+               The Step-wise error rates of the teacher models above
+               is displayed in the following table, which proves 
+               step-wise error rate is a strong indicator of supervision
+                quality for hard task performance.
+                <br>
+              </p>
+              
+              <centering>
+                <div style="text-align: center;">
+                    <img width="90%" src="static/images/step_wise_error_rates.png">  
+                </div>
+                </centering>
+           
+          
+            </div>
+                    
+        </div>
+    </div>
+  </section>
+  
+
 
 
   
