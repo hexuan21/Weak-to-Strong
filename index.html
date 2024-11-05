@@ -313,7 +313,7 @@
             
             <centering>
                 <div style="text-align: center;">
-                    <img id="dataset" width="100%" src="static/images/pipeline.png">     
+                    <img width="100%" src="static/images/pipeline.png">     
                 </div>
             </centering>
             <br>
@@ -348,6 +348,58 @@
     </div>
   </section>
 
+
+<!----------------------------------------- Which Supervision Strategy is better --------------------------------------------------->
+  <section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+    <h2 class="title is-3"> 
+      Which Supervision Strategy is better</h2>
+  </div>
+  </section>   
+
+  <section class="section">
+    <div class="columns is-centered m-6">
+        <div class="column is-full has-text-centered content">
+            
+            <div class="content has-text-justified">
+              <p>
+               In the following 5 line graphs, we show accuracy after finetuning
+               on hard full task supervision and easy sub-task supervision
+               with varying error rates, on 5 different benchmarks. 
+               <br>
+               Some take-aways: 
+               <br> 
+                (1) Hard task supervision consistently outperforms
+                subtask supervision, even with higher outcome
+                error rates. 
+                <br>
+                (2) Performance does not consistently degrade with
+                increasing outcome error rates.
+                <br>
+                (3) Changes in outcome error rates have a greater
+                impact on subtask supervision than on hard task
+                supervision.
+                <br>
+                The results are partly not consistent with our expectation, 
+                which triggers the following deeper exploration in next sections.
+              </p>
+            </div>
+            
+            <centering>
+                <div style="text-align: center;">
+                    <img width="100%" src="static/images/res_1.png">  
+                    <img width="100%" src="static/images/res_2.png">    
+                </div>
+            </centering>
+                    
+        </div>
+    </div>
+  </section>
+  
+
+
+
+  
 <!----------------------------------------- BibTex --------------------------------------------------->
   <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
