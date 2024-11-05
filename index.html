@@ -464,6 +464,52 @@
   </section>
   
 
+<!----------------------------------------- Further Improvement Over Sole Hard Task Supervision --------------------------------------------------->
+  <section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+    <h2 class="title is-3"> 
+      Further Improvement Over Sole Hard Task Supervision</h2>
+  </div>
+  </section>   
+
+  <section class="section">
+    <div class="columns is-centered m-6">
+        <div class="column is-full has-text-centered content">
+            
+            <div class="content has-text-justified">
+              <p>
+               As outlined in previous sections, hard task supervision with 
+               lower step-wise error rates is highly beneficial. 
+               But can performance be further improved using 
+               existing hard task supervision without
+               introducing new hard tasks?
+                <br>
+                We try combine the hard full tasks with its decomposed sub-tasks for finetuning
+                and experiment with different combinations of outcome error rates in 
+                full tasks and sub-tasks. The results are shown in the table right below. 
+                <br>
+                Besides, since the information
+                in hard tasks essentially covers that of the subtasks, one might argue that combining easy subtask and hard full task supervision merely makes
+                LLMs learn the same information roughly twice. 
+                To this end, we design a baseline “4 epochs”, which double epochs of all previous experiments. 
+                We also merge the existing hard task
+                supervision along with its rephrased version as 
+                another baseline "Merge Rephrased" which
+                increases more diversity. 
+              </p>
+            </div>
+            
+            <centering>
+                <div style="text-align: center;">
+                    <img width="90%" src="static/images/sec7_res.png">  
+                </div>
+            </centering>
+            
+        </div>
+    </div>
+  </section>
+  
+
 
 
   
