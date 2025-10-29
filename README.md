@@ -46,7 +46,19 @@ We take [Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B) as base-
 
 (2) Then, we fine-tune the model with our synthesized easy sub task and hard full task supervision datasets.
 
-For hyper-parameters, please refer to the Appendix A of our paper.
+Hyper-params config: 
+```
+bf16: true
+gradient_accumulation_steps: 8
+learning_rate: 2.0e-05
+lr_scheduler_type: cosine
+max_seq_length: 2048
+max_steps: -1
+num_train_epochs: 2
+per_device_train_batch_size: 2
+seed: 42
+warmup_ratio: 0.1
+```
 
 ## Citation
 ```
