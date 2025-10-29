@@ -1,5 +1,5 @@
 # Weak-to-Strong
-This is the official repo for the paper "Guiding Through Complexity: What Makes Good Supervision for Hard Reasoning Tasks?"
+Official repo for the paper ["Guiding Through Complexity: What Makes Good Supervision for Hard Reasoning Tasks?"](https://arxiv.org/abs/2410.20533) (Accepted at NAACL 2025 as Oral)
 
 <a target="_blank" href="https://arxiv.org/abs/2410.20533">
 <img style="height:22pt" src="https://img.shields.io/badge/-Paper-red?style=flat&logo=arxiv"></a>
